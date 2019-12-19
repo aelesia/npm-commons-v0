@@ -1,6 +1,7 @@
 import {StringUtil} from './StringUtil'
-import {AnyDate} from '../ExtType'
 import dayjs from 'dayjs'
+
+export type AnyDate = Date | number | string
 
 export class DateUtil {
 
