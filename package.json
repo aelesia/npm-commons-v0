@@ -1,10 +1,10 @@
 {
-  "name": "@aelesia/ext",
+  "name": "@aelesia/commons",
   "version": "0.0.1",
-  "description": "Extension utilities & methods",
+  "description": "Utilities & methods",
   "author": "aelesia",
   "license": "MIT",
-  "repository": "https://github.com/aelesia/npm-ext",
+  "repository": "https://github.com/aelesia/npm-commons",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
