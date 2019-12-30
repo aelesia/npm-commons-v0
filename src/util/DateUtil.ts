@@ -80,6 +80,6 @@ export class DateUtil {
 
 	static _f(date: AnyDate, format: string): string {
 		let new_date = this.to_date(date)
-		return dayjs(date).format(format)
+		return dayjs(new_date).format(format)
 	}
 }
