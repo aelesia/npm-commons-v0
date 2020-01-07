@@ -5,7 +5,7 @@ export class ArrayUtil {
 	}
 
 	static is_empty<T>(arr: Array<T>): boolean {
-		return this.length === 0
+		return arr.length === 0
 	}
 	static random<T>(arr: Array<T>): T {
 		return arr[Math.floor(Math.random() * arr.length)]
@@ -14,6 +14,6 @@ export class ArrayUtil {
 		return arr[0]
 	}
 	static last<T>(arr: Array<T>): T {
-		return arr[this.length - 1]
+		return arr[arr.length - 1]
 	}
 }
